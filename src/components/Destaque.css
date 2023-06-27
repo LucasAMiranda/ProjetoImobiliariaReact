@@ -1,0 +1,51 @@
+.cardDestaque {
+    position: relative;
+    height: 400px;
+    color: #fff;
+  }
+  
+  .cardOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .cardOverlay .container {
+    text-align: center;
+  }
+  
+  .cardOverlay h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cardOverlay p {
+    font-size: 18px;
+  }
+  
+  .cardOverlay h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardOverlay ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cardOverlay ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
